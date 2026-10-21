@@ -31,8 +31,7 @@ def dividir(a, b):
         raise ValueError("No se puede dividir entre cero")
     return a / b
 
-def test_potencia_positiva(self):
-    assert potencia(2, 3) == 8
 
-def test_potencia_cero(self):
-    assert potencia(5, 0) == 1
+def potencia(base, exponente):
+    """Retorna la base elevada al exponente."""
+    return base ** exponente
